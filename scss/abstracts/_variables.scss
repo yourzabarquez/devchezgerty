@@ -1,0 +1,48 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+:root {
+    --bs-body-color: #000000;
+    --bs-primary: #aa66cc;
+    --bs-primary-rgb: 170, 102, 204;
+    --bs-primary-dark: #8650a1;
+    --bs-primary-light: #b77fd3;
+
+    --bs-primary-bg-subtle: rgba(var(--bs-primary-rgb), 0.3);
+    --bs-primary-border-subtle: rgba(var(--bs-primary-rgb), 0.6);
+
+    --bs-light-rgb: 242, 242, 242;
+
+    --bs-black-secondary: #100B09;
+    --bs-light: #F2F2F2;
+    --bs-gray: #848484;
+    --bs-gray-light: #E8E8E8;
+    --bs-gray-300: #EFEFEF;
+    --bs-gray-400: #C9C9C9;
+    --bs-gray-700: #707070;
+    --bs-gray-500: #DEDEDE;
+    --bs-gray-600: #CECECE;
+    --bs-gray-800: #676767;
+    --bs-gray-darker: #8E857E;
+
+    --bs-purple: #3A164B;
+    --bs-purple-dark: #3C1547;
+    --bs-purple-light: #A24090;
+
+    --bs-dark-text-emphasis: #4D4D4D;
+    --bs-orange: #E8550D;
+    --bs-orange-light: #ED5E18;
+
+    --bs-pink: #D8006B;
+    --bs-pink-500: #DB1FB8;
+    --bs-pink-dark: #E0007A;
+
+
+    --portal-header-height: 120px;
+    --portal-footer-height: 72px;
+
+    @media only screen and (max-width: 767px) {
+        --portal-header-height: 96px;
+        --portal-footer-height: 104px;
+    }
+}

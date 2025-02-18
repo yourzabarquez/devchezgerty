@@ -1,0 +1,255 @@
+.text-underline {
+    text-decoration: underline;
+}
+
+.fw-thin {
+    font-weight: 100 !important;
+}
+
+.fw-light {
+    font-weight: 300 !important;
+}
+
+.fw-normal {
+    font-weight: 400 !important;
+}
+
+.fw-medium {
+    font-weight: 500 !important;
+}
+
+.fw-semibold {
+    font-weight: 600 !important;
+}
+
+.fw-bold {
+    font-weight: 700 !important;
+}
+
+.fw-extrabold {
+    font-weight: 800 !important;
+}
+
+.fw-black {
+    font-weight: 900 !important;
+}
+
+.fs-italic {
+    font-style: italic;
+}
+
+.anchor-overlay {
+    @include inset(0);
+    position: absolute;
+    z-index: 3;
+}
+
+.z-index-1 {
+    z-index: 1;
+}
+
+.fs-14px {
+    font-size: 14px;
+}
+
+.mb-12px {
+    margin-bottom: 12px;
+}
+
+.mb-5px {
+    margin-bottom: 5px;
+}
+
+.ms-14px {
+    margin-left: 14px;
+}
+
+.opacity-67 {
+    opacity: .67;
+}
+
+.opacity-66 {
+    opacity: .66;
+}
+
+.opacity-61 {
+    opacity: .61;
+}
+
+.opacity-57 {
+    opacity: .57;
+}
+
+.opacity-45 {
+    opacity: .45;
+}
+
+.opacity-36 {
+    opacity: .36;
+}
+
+.gap-12px {
+    gap: 12px;
+}
+
+.flex-160px {
+    flex: 0 0 160px;
+}
+
+@media only screen and (min-width: 576px) {
+    .flex-sm-47 {
+        flex: 0 0 47%;
+    }
+
+    .flex-sm-36_1 {
+        flex: 0 0 36.1%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+    .fs-lg-18px {
+        font-size: 18px !important;
+    }
+    .text-lg-white {
+        color: #fff !important;
+    }
+    .mb-lg-n10_5 {
+        margin-bottom: -10.5%;
+    }
+
+    .mb-lg-n26 {
+        margin-bottom: -26%;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .mb-xxl-38px {
+        margin-bottom: 38px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .px-xxxxl-140px {
+        padding-right: 140px !important;
+        padding-left: 140px !important;
+    }
+}
+
+
+// margin
+@for $i from 1 through 9 {
+    .mt-#{$i}px {
+        margin-top: #{$i}px !important;
+    }
+
+    .mb-#{$i}px {
+        margin-bottom: #{$i}px !important;
+    }
+
+    .ms-#{$i}px {
+        margin-left: #{$i}px !important;
+    }
+
+    .me-#{$i}px {
+        margin-right: #{$i}px !important;
+    }
+}
+
+@for $i from 31 through 39 {
+    .mt-#{$i}px {
+        margin-top: #{$i}px !important;
+    }
+
+    .mb-#{$i}px {
+        margin-bottom: #{$i}px !important;
+    }
+
+    .ms-#{$i}px {
+        margin-left: #{$i}px !important;
+    }
+
+    .me-#{$i}px {
+        margin-right: #{$i}px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    @for $i from 1 through 9 {
+        .mt-lg-#{$i}px {
+            margin-top: #{$i}px !important;
+        }
+
+        .mb-lg-#{$i}px {
+            margin-bottom: #{$i}px !important;
+        }
+
+        .ms-lg-#{$i}px {
+            margin-left: #{$i}px !important;
+        }
+
+        .me-lg-#{$i}px {
+          margin-right: #{$i}px !important;
+        }
+    }
+
+    @for $i from 31 through 39 {
+        .mt-lg-#{$i}px {
+            margin-top: #{$i}px !important;
+        }
+
+        .mb-lg-#{$i}px {
+            margin-bottom: #{$i}px !important;
+        }
+
+        .ms-lg-#{$i}px {
+            margin-left: #{$i}px !important;
+        }
+
+        .me-lg-#{$i}px {
+          margin-right: #{$i}px !important;
+        }
+    }
+}
+
+
+@media (min-width: 1200px) {
+    @for $i from 1 through 9 {
+        .mt-xl-#{$i}px {
+            margin-top: #{$i}px !important;
+        }
+
+        .mb-xl-#{$i}px {
+            margin-bottom: #{$i}px !important;
+        }
+
+        .ms-xl-#{$i}px {
+            margin-left: #{$i}px !important;
+        }
+        
+        .me-xl-#{$i}px {
+          margin-right: #{$i}px !important;
+        }
+    }
+
+    @for $i from 31 through 39 {
+        .mt-xl-#{$i}px {
+            margin-top: #{$i}px !important;
+        }
+
+        .mb-xl-#{$i}px {
+            margin-bottom: #{$i}px !important;
+        }
+
+        .ms-xl-#{$i}px {
+            margin-left: #{$i}px !important;
+        }
+        
+        .me-xl-#{$i}px {
+          margin-right: #{$i}px !important;
+        }
+    }
+}
