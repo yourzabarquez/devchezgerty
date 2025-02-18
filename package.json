@@ -1,0 +1,12 @@
+{
+  "name": "218chezgerty",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass scss/app.scss css/app.css --style compressed",
+    "dev": "sass scss/app.scss css/app.css -w --style compressed | browser-sync start --server --files css/*.css ./**/*.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
